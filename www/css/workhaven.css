@@ -1,0 +1,314 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 5, 2013, 2:27:20 AM
+    Author     : George Kvapil
+*/
+body, html {
+    height:100%;
+}
+body {
+    background-color: #e7e7e7
+}
+body > .container{
+    margin-top: 60px; 
+}
+label { 
+    margin-bottom: 0; 
+}
+.form-item label { 
+    margin-bottom: 0;
+    font-size: 75%
+}
+.form-item{
+   float: left;
+   width: 100%;
+   margin-bottom: 15px 
+}
+table {
+    margin-top: 10px;
+}
+.wrapper {
+    min-height:100%;
+    position:relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.navbar-toggle {
+    background: black;
+}
+.main-color {
+   color: #74D5D6
+}
+.main-bg-color {
+   background-color: #74D5D6
+}    
+.detail{
+    background: white;   
+    padding: 20px 0 20px 0;    
+}
+.detail #info {
+    padding-left: 35px;
+}
+.detail a.show-hide-info {
+    font-size: 25px;
+}
+.navbar{
+    border: 0;
+}
+a {
+    color: #74D5D6;
+}
+a:hover {
+    color: #4e9fa0;
+}
+.progress {    
+    width: 100%;
+}
+.progress-bar {
+    background-color: #58b0b1
+}
+.btn-primary {
+    color: #fff;
+    background-color: #74D5D6;
+    border-color: #68c4c5;
+}
+span.star {
+    margin-right: 5px;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus,
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #58b0b1;
+    border-color: #4e9fa0;
+}
+.navbar-inverse {
+    background-color: white;
+    border-color: grey;
+}
+.navbar-inverse .navbar-brand {
+   font-size: inherit;
+   color: #74D5D6 
+}
+.nav>li>a{
+   border-left: 1px solid white;
+   border-right: 1px solid white; 
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus
+{
+   color: #74D5D6;
+   background: url('../images/menu_buttons_bg.jpg') repeat-x;
+   border-left: 1px solid #e7e7e7;
+   border-right: 1px solid #e7e7e7;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus{
+   color: #74D5D6;
+   padding-bottom: 10px;
+   border-bottom: 5px solid #74D5D6;
+}
+.navbar-nav .glyphicon {
+    line-height: normal        
+}
+.navbar-nav span.upper-title{
+    position:absolute; 
+    left: 15px; 
+    top: 0; 
+    color: grey;
+    font-size: 10px;
+    text-transform: uppercase
+}
+.navbar-collapse.in .right-menu-part{
+   float: left!important; 
+}
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.nav .caret, .navbar-nav>li>a:hover .caret, .navbar-inverse .navbar-nav>.open>a .caret, .navbar-inverse .navbar-nav>.open>a:hover .caret, .navbar-inverse .navbar-nav>.open>a:focus .caret {
+    border-top-color: #999;
+    border-bottom-color: #999;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    background-color: #74D5D6;
+}
+ul.errors { 
+    margin: 10px 10px 15px 0;
+    padding: 0;
+    list-style: none;
+}
+.label-warning {
+    background: #5bc0de    
+}
+.label-info {
+    background: #f0ad4e    
+}
+a.tooltip-elem:hover {
+    text-decoration: none    
+}
+.pagination {
+    margin: 0    
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align:middle
+}
+.table .glyphicon{
+    font-size: 15px
+}
+.modal-footer button {
+    width: 49%    
+}
+.modal-footer .btn+.btn {
+    margin-left: 1%;
+}
+.table tr td a {    
+    display: block;
+    color: inherit;        
+}
+.table tr td a:hover {
+    text-decoration: none;    
+    color: inherit;
+}
+div.galery {
+    float: left;
+    padding-top: 30px;
+    width: 100%
+}
+.well + div.galery{
+   padding-top: 0; 
+}
+div.galery .thumbnail {
+    display: inline;
+    margin-bottom: 0;
+}
+div.images {
+    position: relative
+}
+div.galery .close {
+    float: none;
+    padding: 3px;
+}
+@media (min-width: 768px) {
+  div.images {
+    height: 200px;  
+  }
+  img.thumbnail {
+    max-height: 170px        
+  }  
+}
+div.image-detail {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+div.image-detail img{
+    max-width: 100%
+}
+div.footer {
+    color: #BFBFBF;
+    text-align: right;
+    background: white;
+    padding: 15px 0 15px 0;
+    margin-top: 30px;
+    position:absolute;
+    width: 100%;
+    bottom:0;    
+}
+div.footer a{
+    text-decoration: underline;
+    color: #BFBFBF;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-right: 10px;
+    padding-left: 10px;       
+}
+#discussion {    
+    padding: 30px 0 30px 0;
+    background: #e7e7e7;   
+}
+#discussion .header{
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+    margin-bottom: 10px        
+}
+#discussion .col-xs-12, #discussion .col-sm-2, #discussion .col-md-1, #discussion .col-lg-1, #discussion .col-sm-10, #discussion .col-md-11, #discussion .col-lg-11
+{
+    padding-right: 0px;
+    padding-left: 10px;       
+}
+#discussion div.reply {
+    display: none
+}
+#discussion .datetime {
+    color: grey;
+    font-size: 12px;
+}
+.panel-body {
+    padding: 10px;    
+}
+.panel-body img{
+    max-width: 100%
+}
+.myModal .modal-dialog .modal-header {
+    cursor:all-scroll; 
+}
+.permissions {
+    margin: 0px 25px 0px 25px;    
+}
+#leftMenu {
+    width: 50px;
+    font-size: 16px;
+    background: white;
+    position: fixed;
+    z-index: 1000;
+    left: 0px;
+    top: 70px;
+    padding: 0;
+    margin: 0; 
+}
+#leftMenu ul li.divider {
+    height: 1px;
+    background: #e5e5e5;
+    width: 100%;    
+    display: block;
+}
+#leftMenu .nav {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white
+}
+#leftMenu .nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#edit {
+    padding-top: 20px
+}
+.images-previews {
+    width: 100%;
+    text-align: center;
+}
+.images-previews img {
+    width: 100%    
+}
+.project a {
+    display: block
+}
+.project a {
+    color: black
+}
+.latest {
+    float: left
+}
+.latest>a,.latest h4 a, .latest .panel-body a {
+    color: black
+}
+.datetimefuzzy .datetime {
+    display: none;    
+}

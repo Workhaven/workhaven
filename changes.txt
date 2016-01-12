@@ -1,0 +1,6 @@
+30.5.2014
+- Opraveny fuzzy datumy + po pøejetí my¹í nad tímto fuzzy datumem se zobrazí daný datum a èas.
+29.5.2014
+- Opraven ¹ablonovací systém.
+28.5.2014
+- Nový vzhled zobrazování obrázkù a projektù na úvodní stránce administrace. 
