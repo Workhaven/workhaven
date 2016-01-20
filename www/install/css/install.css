@@ -1,5 +1,5 @@
-body { background: #A8E9FF; color: white; text-align: center; padding-bottom: 30px } 
-h1{ font-size: 45px; margin-bottom: 20px }
+body { background: #A8E9FF; color: white; text-align: center; padding-bottom: 30px }
+h1{ font-size: 45px; margin-bottom: 20px; margin-top: 100px}
 p.fail, p.pass { padding: 10px; font-size: 20px }
 p.fail { color: red }
 #menu { margin-bottom: 30px }
