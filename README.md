@@ -10,5 +10,9 @@ Demo
 ---------------------------------------------------------
 http://demo.getworkhaven.com/admin/user/log/in
 Use prefilled credentials:
-Username: admin@getworkhaven.com
-Password: admin123
+- username: admin@getworkhaven.com
+- password: admin123
+
+Installation
+---------------------------------------------------------
+Installation process described here: http://getworkhaven.com/en/howto/install
